@@ -14,7 +14,7 @@
 	display: flex;
 	flex-direction: column;
 	background-size: 100% 100%;
-	background-image: url(https://girouxelectric.com/wp-content/uploads/2018/02/Edison-Tesla-Giroux-ElectricalContractors-1.jpg);
+	background-image: url(./images/evt_featured.jpeg);
 }
 
 .war > div{
@@ -81,10 +81,22 @@
 	padding: 60px 80px;
 }
 
-.section-5{
-	
-	display: flex;
-	padding: 50px 80px;
+.section-4 img{
+	float: left;
+}
+
+.section-5 p{
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 60px 80px;
+}
+
+.section-5 img{
+	float: right;
+	padding: 10px;
 }
 
 .section-5 p{
@@ -113,9 +125,10 @@
 .section-7{
 	display: grid;
 	grid-template-areas: "sec-7a sec-7b sec-7c";
-	background-image: url(https://www.transparenttextures.com/patterns/white-tiles.png);
+	background-image: url(./images/background_section7.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 40px 20px;
 }
 
 .sec-7a{
@@ -205,7 +218,7 @@
 }
 
 .section-9{
-	background-image: url(image15.png);
+	background-image: url(./images/background_section7.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 80px;
@@ -219,6 +232,7 @@
 	text-align: center;
 	background-color: rgba(102,102,102,0.9);
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+	padding: 50px 15px;
 }
 
 .quote p{
@@ -238,8 +252,7 @@
 	background-color: #ffbe3d;
 	font-family: 'Varela Round', sans-serif;
 	color: #666666;
-	padding-left: 150px;
-	padding-right: 150px;
+	padding: 100px 150px;
 }
 
 .section-10 p{
@@ -270,6 +283,16 @@
 
 
 @media screen and (max-width: 800px){
+	.section-1{
+		height: 100%;
+	}
+	.war > div{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		font-size: medium;
+		background-color: #66666666;
+	}
 	.section-2{
 		padding: 100px 20px;
 	}
